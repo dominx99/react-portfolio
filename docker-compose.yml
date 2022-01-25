@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  nodejs:
+  nodejs_portfolio:
     container_name: nodejs
     entrypoint: "/bin/sh ./docker-entrypoint.sh"
     build:
