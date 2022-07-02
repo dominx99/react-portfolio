@@ -36,14 +36,10 @@ const baseResume = {
     items: [
       {
         title: 'PHP',
-        subtitle: 'Middle level',
-        description: 'Good parts: pure function, higher-order functions, factory functions, composition. Bad parts: inheritance, this, new',
-        items: ['Symfony', 'Slim Framework', 'Laravel'],
+        items: ['Symfony', 'Slim Framework', 'Laravel', 'Redis'],
       },
       {
         title: 'Javascript',
-        subtitle: 'Middle level',
-        description: 'Good parts: pure function, higher-order functions, factory functions, composition. Bad parts: inheritance, this, new',
         items: ['ES6', 'React', 'Vue.js'],
       },
       {
@@ -58,9 +54,10 @@ const baseResume = {
       {
         title: 'PHP Developer',
         subtitle: 'Since 2016',
-        description: 'I started my adventure with programming 5 years ago. Since then I learned a lot about Design Patterns.',
-      }
-    ]
+        description:
+          'I started my adventure with programming 6 years ago. In my daily work, I put a lot of focus on that my code at the end of the day is easy to read, testable, and well organized. Lately, I develop my skills in DDD, TDD, Hexagonal Infrastructure, and Design Patterns.',
+      },
+    ],
   },
   experience: {
     title: 'Experience',
@@ -69,22 +66,39 @@ const baseResume = {
         title: 'PHP Developer',
         subtitle: 'June 2021 - Present',
         description: `
-          Worked with microservices, Cloud, PHP, Symfony, Vue.js.
-          Maintained various amount of applications.
-        `
+          Worked with microservices, AWS, PHP, Symfony, and Redis.
+          Maintained various SaaS integrations, mostly with push notifications and newsletters.
+          Learned how to manage a huge amount of data.
+        `,
+        skills: ['Symfony', 'Redis', 'AWS', 'Docker'],
       },
       {
         title: 'PHP Developer',
         subtitle: 'May 2018 - June 2021',
         description: `
-          Designed REST APIs, worked on external system integrations.
-          Maintained long term projects.
+          REST APIs, and integrations between various systems.
+          Maintained an already working e-commerce system.
         `,
+        skills: ['React', 'Vue.js', 'Laravel', 'Symfony', 'Docker'],
       },
-    ]
+      {
+        title: 'Freelance PHP Developer',
+        subtitle: 'May 2017 - May 2018',
+        description: `
+          Landpages, CMS websites
+        `,
+        skills: ['Slim Framework', 'Javascript'],
+      },
+    ],
   },
-}
+  interests: {
+    title: 'Interests',
+    items: [
+      {
+        description: "I like to solve Rubik's cube",
+      },
+    ],
+  },
+};
 
-export {
-  baseResume,
-}
+export { baseResume };
