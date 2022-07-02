@@ -53,7 +53,7 @@ const baseResume = {
     items: [
       {
         title: 'PHP Developer',
-        subtitle: 'Since 2016',
+        subtitle: 'Since 2017',
         description:
           'I started my adventure with programming 6 years ago. In my daily work, I put a lot of focus on that my code at the end of the day is easy to read, testable, and well organized. Lately, I develop my skills in DDD, TDD, Hexagonal Infrastructure, and Design Patterns.',
       },
