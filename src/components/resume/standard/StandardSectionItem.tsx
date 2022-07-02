@@ -8,7 +8,7 @@ interface Props {
 }
 
 export type StandardSectionItemType = {
-  title: string;
+  title?: string;
   subtitle?: string;
   description?: string;
   skills?: string[];
