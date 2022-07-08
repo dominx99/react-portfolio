@@ -17,6 +17,7 @@ services:
       - traefik.http.routers.portfolio.rule=Host(`${DOMAIN}`)
       - "traefik.http.routers.portfolio.entrypoints=web"
       - "traefik.docker.network=proxy"
+      - "traefik.http.routers.portfolio.tls.certresolver=lets_encrypt_resolver"
     expose:
       - 8101
     networks:
